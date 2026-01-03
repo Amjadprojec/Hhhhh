@@ -1,0 +1,6 @@
+name = "eporner-proxyv2"  # bebas, tapi jangan spasi
+main = "index.js"       # ini penting! nunjuk file utama Worker
+compatibility_date = "2026-01-03"
+
+[vars]
+# kalau butuh variable nanti tambah sini
