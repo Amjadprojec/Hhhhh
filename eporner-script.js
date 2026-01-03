@@ -14,7 +14,8 @@ let currentQuery = '';
 let totalPages = 1;
 
 function getProxiedUrl(url) {
-  return proxies[proxyIndex] + encodeURIComponent(url);
+  //return proxies[proxyIndex] + encodeURIComponent(url);
+  return url;
 }
 
 function fetchVideos(page = 1, query = '') {
