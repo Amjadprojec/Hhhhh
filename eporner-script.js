@@ -2,11 +2,11 @@ const perPage = 20;
 const relatedCount = 6;
 const baseApi = 'https://www.eporner.com/api/v2/video/search/';
 const proxies = [
-  'https://api.corsfix.com/?',          // free & fast
-  'https://proxy.cors.sh/',             // reliable, tapi kadang butuh key gratis (daftar di cors.sh)
-  'https://corsproxy.io/?',             // masih jalan
-  'https://api.codetabs.com/v1/proxy?quest=',  // yang lama ini masih ok
-  'https://api.allorigins.win/raw?url=' // cadangan
+  'https://api.codetabs.com/v1/proxy?quest=',  // yang ini masih paling stabil
+  'https://corsfix.com/?',                     // free & cepat untuk dev
+  'https://corsproxy.io/?',                    // masih jalan, no limit ketat
+  'https://api.cors.lol/?url=',                // cadangan
+  'https://proxy.cors.sh/'                     // reliable (kadang butuh key gratis, tapi bisa tanpa dulu)
 ];
 let proxyIndex = 0;
 let currentPage = 1;
