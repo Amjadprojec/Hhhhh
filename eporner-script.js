@@ -14,7 +14,8 @@ let currentQuery = '';
 let totalPages = 1;
 
 function getProxiedUrl(url) {
-  return 'https://procxyerporner.cokrungkat579.workers.dev/?url=' + encodeURIComponent(url);
+  //return 'https://procxyerporner.cokrungkat579.workers.dev/?url=' + encodeURIComponent(url);
+  return url;
 }
 
 function fetchVideos(page = 1, query = '') {
